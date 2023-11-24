@@ -15,7 +15,8 @@ export class LoginComponent implements OnInit {
 
   onLogin() {
 
-    this.router.navigateByUrl('/dashboard');
+    
+    location.href="http://localhost:4200/dashboard"
 
   }
 
